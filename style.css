@@ -1,0 +1,52 @@
+
+*{
+text-align: center;
+}
+
+.header {
+    text-align: center;
+    align-content: center;
+    overflow: hidden;
+    padding: 25px;
+}
+
+.desc {
+   padding: 25px;
+}
+
+.name {
+    margin: 0;
+    padding: 10px;
+}
+
+.gender {
+    margin: 0;
+    padding: 10px;
+}
+
+.email {
+    margin: 0;
+    padding: 10px;
+}
+
+.contact {
+    margin: 0;
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+h1 {
+    text-align: left;
+}
+
+body {
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
+    font-style: italic;
+}

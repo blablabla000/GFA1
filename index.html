@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charity FORMe</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+        <h1>Habitat for Humanity</h1>
+        </div>
+    </header>
+
+    <div class="desc">
+        <p>This organization wants to bring people from all walks of life together to help build homes, improve communities and help transform lives.</p>
+        <p>I chose this organization as I want to help those who are homeless due to circumstances </p>
+        <br>
+        <p>Sign up now and support us!</p>
+    </div>
+
+    <form class="name">
+
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" required>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" required>
+        <input type="submit">
+        <input type="reset">
+    </form>
+
+
+    <form class="gender">
+
+        <label for="sex">Gender:</label>
+        <select name="sex" id="sex" required>
+            <option value="select"></option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="secret">Prefer not to say</option>
+        </select>
+        <input type="submit">
+        <input type="reset">
+
+    </form>   
+    
+    <form class="email">
+
+        <label id="email" for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+
+    <form class="contact">
+
+        <label for="phoneno">Contact number:</label>
+        <input type="text" id="phoneno" name="phoneno">
+        <input type="submit">
+        <input type="reset">
+        
+    </form>
+
+</body>
+</html>
